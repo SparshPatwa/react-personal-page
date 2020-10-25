@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap/Row';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Content(props) {
     return(
@@ -12,5 +12,4 @@ function Content(props) {
         </Container>
     );
 }
-
 export default Content;

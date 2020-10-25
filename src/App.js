@@ -6,7 +6,7 @@ import './App.css';
 import Footer from "./components/Footer.js";
 import WorkPage from "./pages/WorkPage.js";
 import AboutPage from "./pages/AboutPage.js";
-import ContactPage from "./pages/ContactPage.js";
+// import ContactPage from "./pages/ContactPage.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -20,14 +20,11 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       work: {
-        title: 'Title',
-        subTitle: 'SubTitle',
-        text: 'Text'
+        title: 'Hello and Welcome to my Page',
+        subTitle: 'Here are some of my full-stack projects'
       },
       about: {
-        title: 'Title',
-        subTitle: 'SubTitle',
-        text: 'Text'
+        title: 'About Me'
       },
       contact: {
         title: 'Title',
@@ -49,7 +46,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Work</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                {/* <Link className="nav-link" to="/contact">Contact</Link> */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -60,7 +57,7 @@ class App extends React.Component {
           {/* About Page Setup */}
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           {/* Contact Page Setup */}
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+          {/* <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} /> */}
           {/* Footer Setup */}
           <Footer />
 

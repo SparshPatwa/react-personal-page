@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.0.1",
   "description": "Personal Page and Portfolio",
+  "private": true,
   "dependencies": {
     "axios": "^0.20.0",
     "boostrap": "^2.0.0",

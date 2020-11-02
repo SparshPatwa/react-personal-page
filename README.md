@@ -11,7 +11,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Demonstration](#demonstration)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -23,10 +22,7 @@
 💻 npm start
 
 ## Deployment
-🛳 [Application Link](PLACEHOLDER)
-
-## Demonstration  
-🎥 [Video Walkthrough](NA)
+🛳 [Application Link](https://sparshpatwa-react-portfolio.herokuapp.com/)
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)

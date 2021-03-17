@@ -7,8 +7,8 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
             <Content>
-            <p>Hi, my name is Sparsh Patwa. I'm currently a hardware silicon engineer at Alphabet working on the bleeding edge of memory and compute for Ambient Computing and Machine Learning Acceleration with a love for hardware-software co-design.</p>
-            <p>I have recently ventured into the world of fullstack software development and hope to bring the same passion and innovating thinking that I do to hardware silicon engineering.</p>
+            <p>Hi, my name is Sparsh Patwa and i'm a hardware silicon engineer at Alphabet working on the bleeding edge of memory + compute for ambient computing and machine learning acceleration applications with a love for hardware-software co-design.</p>
+            <p>I have a passion for fullstack software development and hope to look to create unique front end user experiences with a robust + scalable backend infrastructure.</p>
             </Content>
         </div>
     );

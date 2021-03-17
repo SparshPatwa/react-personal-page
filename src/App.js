@@ -20,8 +20,8 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       work: {
-        title: 'Hello and Welcome to my Page',
-        subTitle: 'Here are some of my full-stack projects'
+        title: "Hello and welcome to my Full Stack Portfolio",
+        subTitle: "I'm a Software Developer with a background in Hardware Silicon Engineering"
       },
       about: {
         title: 'About Me'

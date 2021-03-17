@@ -11,6 +11,10 @@ function Footer() {
                     <a href="https://github.com/SparshPatwa"> 
                         GitHub
                     </a>
+                    <br></br>
+                    <a href="https://www.linkedin.com/in/sparsh-patwa-30132848/">
+                        Linkedin
+                    </a>
                 </Col>
             </Row>
             </Container>

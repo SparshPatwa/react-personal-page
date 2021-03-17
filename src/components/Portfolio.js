@@ -19,7 +19,8 @@ class Portfolio extends React.Component {
                     title: 'Dory',
                     subTitle: 'A Q&A application deployed using full-stack technologies ',
                     imgSrc: dory,
-                    link: 'https://dory-polling.herokuapp.com/',
+                    link0: 'https://dory-polling.herokuapp.com/',
+                    link1: 'https://github.com/SparshPatwa/dory',
                     selected: false
                 },
                 {
@@ -27,7 +28,8 @@ class Portfolio extends React.Component {
                     title: 'Hike Finder',
                     subTitle: 'A hike planner application deployed using front-end technologies',
                     imgSrc: hikefinder,
-                    link: 'https://jennifermulder.github.io/explore/',
+                    link0: 'https://jennifermulder.github.io/explore/',
+                    link1: 'https://github.com/jennifermulder/explore',
                     selected: false
                 },
                 
@@ -36,7 +38,8 @@ class Portfolio extends React.Component {
                     title: 'Health Tracker',
                     subTitle: 'A health focused application deployed using full-stack technologies ',
                     imgSrc: healthtracker,
-                    link: 'https://health-track-it.herokuapp.com/about',
+                    link0: 'https://health-track-it.herokuapp.com/about',
+                    link1: 'https://github.com/SparshPatwa/health-tracker',
                     selected: false
                 },
 
@@ -45,7 +48,8 @@ class Portfolio extends React.Component {
                     title: 'GitHub',
                     subTitle: 'My GitHub page with repositories and projects I\'ve worked on',
                     imgSrc: githubrepo,
-                    link: 'https://github.com/SparshPatwa',
+                    link0: 'https://github.com/SparshPatwa',
+                    link1: 'https://www.linkedin.com/in/sparsh-patwa-30132848/',
                     selected: false
                 }
             ]

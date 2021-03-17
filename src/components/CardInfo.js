@@ -4,14 +4,27 @@ import { useSpring, animated } from 'react-spring';
 function CardInfo(props) {
 
     const style = useSpring({opacity: 1, from: {opacity: 0}});
-
-    return(
-        <animated.div className="mycard-info" style={style}>
-            <p className="mycard-title">{props.title}</p>
-            <p className="mycard-sub-title">{props.subTitle}</p>
-            <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
-        </animated.div>
-    );
+    if(props.title == "GitHub") {
+        return(
+            <animated.div className="mycard-info" style={style}>
+                <p className="mycard-title">{props.title}</p>
+                <p className="mycard-sub-title">{props.subTitle}</p>
+                <a href={props.link0} target="_blank" rel="noopener noreferrer">Github</a>
+                <br></br>
+                <a href={props.link1} target="_blank" rel="noopener noreferrer">Linkedin</a>
+            </animated.div>
+        );
+    } else {
+        return(
+            <animated.div className="mycard-info" style={style}>
+                <p className="mycard-title">{props.title}</p>
+                <p className="mycard-sub-title">{props.subTitle}</p>
+                <a href={props.link0} target="_blank" rel="noopener noreferrer">Deployed Application</a>
+                <br></br>
+                <a href={props.link1} target="_blank" rel="noopener noreferrer">Source Code</a>
+            </animated.div>
+        );
+    }
 
 }
 export default CardInfo;

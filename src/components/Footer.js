@@ -15,6 +15,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/sparsh-patwa-30132848/">
                         Linkedin
                     </a>
+                    <br></br>
                     <a href="https://bit.ly/sparshpatwa-resume">
                         Resume
                     </a>

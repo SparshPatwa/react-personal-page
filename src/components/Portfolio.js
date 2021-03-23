@@ -23,6 +23,7 @@ class Portfolio extends React.Component {
                     link1: 'https://github.com/SparshPatwa/dory',
                     selected: false
                 },
+                
                 {
                     id: 1,
                     title: 'Hike Finder',
@@ -49,7 +50,7 @@ class Portfolio extends React.Component {
                     subTitle: 'My GitHub page with repositories and projects I\'ve worked on',
                     imgSrc: githubrepo,
                     link0: 'https://github.com/SparshPatwa',
-                    link1: 'https://www.linkedin.com/in/sparsh-patwa-30132848/',
+                    link1: 'https://bit.ly/sparshpatwa-resume',
                     selected: false
                 }
             ]

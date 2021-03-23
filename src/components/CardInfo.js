@@ -11,7 +11,7 @@ function CardInfo(props) {
                 <p className="mycard-sub-title">{props.subTitle}</p>
                 <a href={props.link0} target="_blank" rel="noopener noreferrer">Github</a>
                 <br></br>
-                <a href={props.link1} target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a href={props.link1} target="_blank" rel="noopener noreferrer">Resume</a>
             </animated.div>
         );
     } else {
@@ -21,7 +21,7 @@ function CardInfo(props) {
                 <p className="mycard-sub-title">{props.subTitle}</p>
                 <a href={props.link0} target="_blank" rel="noopener noreferrer">Deployed Application</a>
                 <br></br>
-                <a href={props.link1} target="_blank" rel="noopener noreferrer">Source Code</a>
+                <a href={props.link1} target="_blank" rel="noopener noreferrer">Github Repository</a>
             </animated.div>
         );
     }
